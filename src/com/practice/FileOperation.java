@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class FileOperation {
-
+//second commit
 	public static void main(String[] args) throws IOException {
   try (BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\file\\file1.txt"))) {
 	  System.out.println("enter text here");
